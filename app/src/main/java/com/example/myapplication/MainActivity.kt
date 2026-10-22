@@ -45,8 +45,8 @@ class MainActivity : ComponentActivity() {
                     //bucle4()
                     //while1()
                     //ejemploBox("Mi primera cajita")
-                    //actividadBox()
-                    actividadFuncional()
+                    actividadBox()
+                    //actividadFuncional()
 
 
 
@@ -64,13 +64,13 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     )
 }
 
-@Preview(showBackground = true)
+/*@Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
     MyApplicationTheme {
         Greeting("Android")
     }
-}
+}*/
 
 @Composable
 fun evaluarNota (nota : Int, modifier:Modifier =Modifier){
@@ -242,7 +242,7 @@ fun actividadBox(modifier: Modifier = Modifier){
     }
 }
 
-@Composable
+//@Composable
 /*
 fun actividadFuncional(modifier: Modifier = Modifier) {
     val configuration= LocalConfiguration.current
